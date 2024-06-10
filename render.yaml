@@ -1,0 +1,11 @@
+# Exported from Render on 2024-06-10T03:35:46Z
+services:
+- type: web
+  name: vono
+  runtime: docker
+  repo: https://github.com/calebguy/vono
+  plan: free
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"
